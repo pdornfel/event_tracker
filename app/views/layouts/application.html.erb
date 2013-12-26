@@ -8,7 +8,22 @@
 </head>
 <body>
 
-<%= yield %>
+<header class='header'>
+  <%= render 'layouts/menu_list' %>
+</header>
+
+
+<section id='main'>
+  <%= yield %>
+</section>
+<section id='sidebar'>
+  <%= render 'layouts/sidebar' %>
+</section>
+
+
+<footer class='footer'>
+  <%= render 'layouts/menu_list' %>
+</footer>
 
 </body>
 </html>

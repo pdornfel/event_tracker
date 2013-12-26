@@ -56,5 +56,5 @@ production:
   encoding: unicode
   database: event_tracker_production
   pool: 5
-  username: event_tracker
+  username:
   password:

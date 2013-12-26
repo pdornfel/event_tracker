@@ -11,3 +11,12 @@
  *= require_self
  *= require_tree .
  */
+
+.header {
+  background-color: lightblue;
+  padding: 30px;
+}
+
+.footer {
+  background-color: lightcoral;
+}
